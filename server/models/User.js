@@ -47,6 +47,14 @@
         required:true,
 
     },
+    token :{
+        type:String,
+        required:true,
+    },
+    resetpasswordExpires:{
+        type:String,
+        required:true,
+    },
     coueseProgress:[{
         type:mongoose.Schema.Types.ObjectId,
         ref:"CourseProgress",
